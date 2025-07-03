@@ -8,7 +8,7 @@ const db = require('./models');
 
 app.use(cors({
     origin: 'http://localhost:3000', // only allowing my frontend to make backend calls
-    methods: ['GET', 'POST'],        // limited HTTP methods
+    methods: ['GET', 'POST'],        
     credentials: true                
 }));
 app.use(express.json());

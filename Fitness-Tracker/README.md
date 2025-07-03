@@ -1,3 +1,4 @@
+```markdown
 # 🏋️‍♂️ Fitness Tracker
 
 A full-stack Health and Fitness Tracker web application to help users monitor and manage their daily fitness goals — including calorie intake, water consumption, sleep tracking, and more.
@@ -14,9 +15,12 @@ A full-stack Health and Fitness Tracker web application to help users monitor an
 
 ## 🔗 System Architecture
 
-Database (MySQL) ---> Backend (Express) ---> Frontend (React)
-    3306                   5000                 3000
+```
 
+Database (MySQL) ---> Backend (Express) ---> Frontend (React)
+3306                  5000                  3000
+
+````
 
 All frontend requests go through the backend, which fetches or updates data from the MySQL database.
 
@@ -43,10 +47,8 @@ All frontend requests go through the backend, which fetches or updates data from
 ```bash
 git clone https://github.com/teja0308/Fitness-Tracker.git
 cd Fitness-Tracker
-
-```
-
-````md
+````
+---
 
 ### 2. Install Dependencies
 
@@ -82,11 +84,13 @@ npm start
 
 ---
 
+## 🕒 Auto Reset at Midnight
 
-🕒 Auto Reset at Midnight
-A background timer automatically resets daily logs (like calories, water, etc.) at midnight using a setTimeout and setInterval logic.
+A background timer automatically resets daily logs (like calories, water, etc.) at midnight using a `setTimeout` and `setInterval` logic.
 
-📸 Screenshots
+---
+
+## 📸 Screenshots
 ![Intro page](ScreenShots/image.png)
 ![Login page](ScreenShots/image-1.png)
 ![Dashboard](ScreenShots/image-2.png)
@@ -94,7 +98,14 @@ A background timer automatically resets daily logs (like calories, water, etc.) 
 ![User Profile Page](ScreenShots/image-4.png)
 ![Water logging page](ScreenShots/image-5.png)
 ![Sleep Logging page](ScreenShots/image-6.png)
-![Calorie logging page](ScreenShots/image-7.png)
+![Calorie logging page](Screenshots/image-7.png)
 
-🙌 Contributing
-Feel free to fork the repository and submit pull requests.
+---
+
+## 🙌 Contributing
+
+Feel free to fork the repository and submit pull requests to improve features or fix bugs.
+
+---
+
+

@@ -98,7 +98,7 @@ A background timer automatically resets daily logs (like calories, water, etc.) 
 ![User Profile Page](ScreenShots/image-4.png)
 ![Water logging page](ScreenShots/image-5.png)
 ![Sleep Logging page](ScreenShots/image-6.png)
-![Calorie logging page](Screenshots/image-7.png)
+![Calorie logging page](ScreenShots/image-7.png)
 
 ---
 

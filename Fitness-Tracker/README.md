@@ -1,4 +1,3 @@
-```markdown
 # 🏋️‍♂️ Fitness Tracker
 
 A full-stack Health and Fitness Tracker web application to help users monitor and manage their daily fitness goals — including calorie intake, water consumption, sleep tracking, and more.
@@ -99,8 +98,6 @@ A background timer automatically resets daily logs (like calories, water, etc.) 
 ![Water logging page](ScreenShots/image-5.png)
 ![Sleep Logging page](ScreenShots/image-6.png)
 ![Calorie logging page](ScreenShots/image-7.png)
-
----
 
 ## 🙌 Contributing
 

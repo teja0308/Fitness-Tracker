@@ -88,7 +88,7 @@ const Dashboard = () => {
           <div className="charts-section">
             {renderCard('Sleep (hrs)', sleepData, '#9575cd')}
             {renderCard('Water (L)', waterData, '#4fc3f7')}
-            {renderCard('Calories', calorieData, '#ff8a65')}
+            {renderCard('Calories ', calorieData, '#ff8a65')}
           </div>
         </div>
       </div>

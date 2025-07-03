@@ -21,7 +21,6 @@ const Water = () => {
   const total = logs.reduce((sum, val) => sum + parseFloat(val), 0);
   const percentage = Math.min((total / goal) * 100, 100).toFixed(0);
 
-  // ✅ Save to localStorage only
    useEffect(() => {
     localStorage.setItem('logs', JSON.stringify(logs));
     localStorage.setItem('goal', goal);
@@ -38,11 +37,10 @@ const Water = () => {
   }, [logs, goal,today,total,username]);
 
 
-  // ✅ Schedule reset at 00:00
   useEffect(() => {
     const now = new Date();
     const resetTime = new Date();
-    resetTime.setHours(24, 0, 0, 0); // Midnight
+    resetTime.setHours(24, 0, 0, 0);
     const msUntilReset = resetTime - now;
     const resetTimeout = setTimeout(() => {
       setLogs([]);

@@ -9,15 +9,12 @@ const Register = () => {
 
  const handleChange = (e) => {
   const { name, value } = e.target;
-
-  // Convert to number for specific fields
   const numericFields = ['age', 'height', 'weight'];
   setForm({
     ...form,
     [name]: numericFields.includes(name) ? parseFloat(value) || 0 : value,
   });
 };
-
 
   const handleSubmit = async (e) => {
     e.preventDefault();

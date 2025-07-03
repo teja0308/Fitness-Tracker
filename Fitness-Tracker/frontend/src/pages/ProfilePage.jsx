@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getProfile } from '../services/api'; // you’ll create this
+import { getProfile } from '../services/api';
 import './Profile.css';
 import Navbar from "../components/Navbar";
 import {useNavigate } from 'react-router-dom';

@@ -57,11 +57,10 @@ const Calorie = () => {
     syncToDatabase(logs);
   }, [logs, goal, today]);
 
-  // Set timeout to reset at midnight
   useEffect(() => {
     const now = new Date();
     const midnight = new Date();
-    midnight.setHours(24, 0, 0, 0); // Next midnight
+    midnight.setHours(24, 0, 0, 0);
     const msUntilMidnight = midnight.getTime() - now.getTime();
 
     const resetAtMidnight = () => {
@@ -73,7 +72,7 @@ const Calorie = () => {
 
     const timeout = setTimeout(() => {
       resetAtMidnight();
-      setInterval(resetAtMidnight, 24 * 60 * 60 * 1000); // repeat daily
+      setInterval(resetAtMidnight, 24 * 60 * 60 * 1000); 
     }, msUntilMidnight);
 
     return () => clearTimeout(timeout);

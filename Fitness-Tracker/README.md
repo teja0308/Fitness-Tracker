@@ -44,32 +44,9 @@ All frontend requests go through the backend, which fetches or updates data from
 git clone https://github.com/teja0308/Fitness-Tracker.git
 cd Fitness-Tracker
 
-
-To make those green-colored section headings (like `### 2. Install Dependencies`) appear as **blue section headers in your GitHub README**, **you must remove any Markdown formatting inside the heading line**.
-
-In your current Markdown, you wrote:
-
-```md
-### 2. Install Dependencies
 ```
 
-But you **also added inline code blocks or backticks improperly** in some cases, or copy-pasted from VS Code that added styling.
-
----
-
-### ✅ Correct Markdown
-
-Update your README like this:
-
 ````md
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/teja0308/Fitness-Tracker.git
-cd Fitness-Tracker
-````
 
 ### 2. Install Dependencies
 
@@ -117,7 +94,7 @@ A background timer automatically resets daily logs (like calories, water, etc.) 
 ![User Profile Page](ScreenShots/image-4.png)
 ![Water logging page](ScreenShots/image-5.png)
 ![Sleep Logging page](ScreenShots/image-6.png)
-![Calorie logging page](Screenshots/image-7.png)
+![Calorie logging page](ScreenShots/image-7.png)
 
 🙌 Contributing
 Feel free to fork the repository and submit pull requests.

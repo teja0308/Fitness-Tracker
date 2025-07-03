@@ -6,7 +6,11 @@ const authRoutes = require('./routes/auth.routes');
 const app = express();
 const db = require('./models');
 
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3000', // only allowing my frontend to make backend calls
+    methods: ['GET', 'POST'],        // limited HTTP methods
+    credentials: true                
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api/', authRoutes);

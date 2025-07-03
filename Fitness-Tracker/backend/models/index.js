@@ -16,7 +16,7 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-// ✅ Make sure this line exists:
+
 db.user = require("./user.model.js")(sequelize, DataTypes);
 db.water_log = require("./water.model.js")(sequelize, DataTypes);
 db.calorie_log = require("./calorie.model.js")(sequelize,DataTypes);

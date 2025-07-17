@@ -23,14 +23,7 @@ function App() {
         <Route path="/" element={<Intro/>} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route
-          exact path="/dashboard"
-          element={
-            <ProtectedRoute>
-              <Dashboard />
-            </ProtectedRoute>
-          }
-        />
+        <Route exact path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>}/>
         <Route exact path="/dashboard/calories" element={<ProtectedRoute><Calorie/></ProtectedRoute>} />
         <Route exact path="/dashboard/water" element={<ProtectedRoute><Water/></ProtectedRoute>} />
         <Route exact path="/dashboard/bmi" element={<ProtectedRoute><Bmi/></ProtectedRoute>} />
